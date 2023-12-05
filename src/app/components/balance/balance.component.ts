@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -11,9 +11,5 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './balance.component.scss',
 })
 export class BalanceComponent {
-  // Variable implícita
-  title: string = "The Balance Component";
-
-  // Variable explícita
-  search: string = "Buscar...";
+  @Input() title: string = "Balance Component"
 }
