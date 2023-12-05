@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-
 import { BalanceComponent } from './components/balance/balance.component';
 
 @Component({
@@ -12,5 +11,5 @@ import { BalanceComponent } from './components/balance/balance.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Frontend Con Angular';
+
 }
